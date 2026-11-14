@@ -373,6 +373,9 @@ Alignment with `materialy`:
       names `finance/…`, `wordle/…`, `docs/…`; commit subjects `Finance: …`.
 - [ ] CI: until the converter exists, a workflow that runs pytest on `reseni`
       (covers the "check script" item above); later copy the `web.yml` pattern.
+      `web.yml` copied 14 Nov: converter check on PRs and pushes to `main`,
+      automatic import into `public-pages` after a push. pytest on `reseni` is
+      still open.
 - [ ] Optional: one picture per project made with the `obrazek` skill from
       `materialy`.
 

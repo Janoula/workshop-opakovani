@@ -279,8 +279,16 @@ Wordle a Titanic přepsal Tomáš 14. 11. (PR #2). Titanic má novou otázku
       v tisku je prázdný čtvereček.
 - [x] Import z `e41e0ce` (po PR #2): 71 stránek, 83 testů prochází.
 - [x] PR #13 sloučený do `main` v `public-pages` 14. 11. (`962f779`).
-- [ ] Workflow `web.yml` v tomhle repu podle `materialy` (secret
-      `PUBLIC_PAGES_TOKEN`, přeskočit ve forcích).
+- [x] Automatický import (14. 11.), stejně jako v `materialy`:
+      - `.github/workflows/web.yml` tady: při PR do `main` a pushi do `main`
+        náhled převodu (chyba formátu PR zastaví), po pushi `repository_dispatch`
+        `workshop-opakovani-push` do `public-pages`; ve forcích se přeskočí;
+      - `public-pages` `.github/workflows/import-workshopu.yml`: import
+        z aktuálního `main`, testy, build a PR z větve
+        `import-workshopu-opakovani`; ruční spuštění ověřeno (bez změn, PR
+        nevznikl);
+      - **chybí secret `PUBLIC_PAGES_TOKEN` v tomhle repu** (v `materialy` je),
+        bez něj `web.yml` selže.
 
 ## 4. Zkušební převod (13. 11. 2026)
 
@@ -334,6 +342,6 @@ Všechno rozhodl Vojta 13. 11. podle návrhu:
 - [x] push větve `workshop-import` a PR do `public-pages`:
       https://github.com/pyladiesprague/public-pages/pull/13 (13. 11.),
 - [x] tisková verze lekcí a projektů včetně nápověd (13. 11.),
-- [ ] workflow `web.yml` v tomhle repu (automatický import po pushi,
-      vyžaduje secret `PUBLIC_PAGES_TOKEN` a workflow importu v `public-pages`).
+- [x] workflow `web.yml` v tomhle repu a `import-workshopu.yml` v `public-pages`
+      (14. 11.; secret `PUBLIC_PAGES_TOKEN` je potřeba přidat).
 
