@@ -431,7 +431,11 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
       as an exception, or explain `tmp_path` briefly in the step.
 - [ ] The solution generator takes tests from the step files. Once later steps
       have none, the solution tests need another source.
-- [ ] Add the Commit and Sync line to each step (D3).
+- [x] Add the Commit and Sync line to each step (D3). Done 14 Nov, same wording
+      as Wordle and Titanic.
+- [x] Every "Tahák LN" reference names the section: "Tahák L6, *Výřez*"
+      (14 Nov, section names from the lesson taháky; L9 from `materialy`
+      branch `lekce09/init-materials`).
 
 ### Wordle
 Done by Tomas on 14 Nov, on top of the format from 13 Nov. Waiting for review.
