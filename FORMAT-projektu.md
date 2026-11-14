@@ -273,11 +273,12 @@ Wordle a Titanic přepsal Tomáš 14. 11. (PR #2). Titanic má novou otázku
       - první import `828e5c1`: 66 stránek, web se sestaví, odkazy vedou na
         existující stránky,
       - postup je v `code/workshop/README.md`.
-- [ ] Popis Titanicu v `code/workshop/opakovani.json` (PR #13) je ještě
-      stará otázka „ženy a děti první“.
-- [ ] Seznamy `- [ ] …` v „Hotovo, když“ se na webu vykreslí s doslovnými
-      `[ ]`. Převodník z nich má udělat políčka, nebo závorky vypustit.
-- [ ] Přegenerovat import v PR #13 na aktuální `main` (dnes `828e5c1`).
+- [x] Popis Titanicu v `code/workshop/opakovani.json`: nová otázka (14. 11.).
+- [x] Seznamy `- [ ] …` mimo kód převodník převede na zaškrtávací políčko
+      (14. 11.). Na webu si ho účastnice může odškrtat, stav se neukládá;
+      v tisku je prázdný čtvereček.
+- [x] Import z `e41e0ce` (po PR #2): 71 stránek, 83 testů prochází.
+- [x] PR #13 sloučený do `main` v `public-pages` 14. 11. (`962f779`).
 - [ ] Workflow `web.yml` v tomhle repu podle `materialy` (secret
       `PUBLIC_PAGES_TOKEN`, přeskočit ve forcích).
 
