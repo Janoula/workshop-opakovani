@@ -417,8 +417,8 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
       `finance.py`, `logika.py`, `analyza.py` and their `test_*.py`.
 - [ ] Check that input cleaning is practised (feedback): case, `strip`, types,
       positive and negative numbers, dates.
-- [ ] Data files are found from the file's own location, not the working folder.
-      Wordle and Titanic use `Path(__file__).parent`; finance step 6 open.
+- [x] Data files are found from the file's own location, not the working folder.
+      Done 15 Nov: all three use `Path(__file__).parent`.
 - [ ] Last: test the participant path on Windows and macOS with this project:
       fork, clone, open the repo root, install pytest, Testing panel, Run,
       Commit and Sync.
@@ -436,7 +436,9 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
       `bonus3_hledani.py` to `bonus2_hledani.py`, `bonus4_razeni.py` to
       `bonus3_razeni.py`; update `reseni/README.md` and `_predloha/sestav.py` (D12).
 - [x] Split all eleven bonuses into separate files (13 Nov).
-- [ ] Step 6: build the path to `finance.json` from the file's location.
+- [x] Step 6: build the path to `finance.json` from the file's location.
+      Done 15 Nov: `Path(__file__).parent / "finance.json"` as a recipe in the
+      step, the tahák and the hint; solutions regenerated on `reseni`.
 - [ ] Move shared tahák parts to the root `TAHAK.md`; keep JSON in the project tahák.
 - [ ] Adjust the tests to D9: pick the step where ready tests stop, and from
       there on replace the test code with a list of cases the participant tests
