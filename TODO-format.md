@@ -286,7 +286,7 @@ Order: project-specific work first, repo-wide changes after.
       fallback, `pip install pytest cowsay pyfiglet`, troubleshooting table,
       check with the Testing panel and the cow, sync the fork in the morning).
       The converter renders it as `/materialy/workshop-opakovani/pred-workshopem/`,
-      linked from the workshop page (public-pages branch `workshop-pred-workshopem`).
+      linked from the workshop page (public-pages PR #15).
   - [ ] Announce it (e-mail, Discord, web banner in `organizace/content/oznameni/`).
 - [x] public-pages converter for the workshop repo. Done 13–14 Nov (public-pages
       PR #13, merged; automatic import since 14 Nov). It used to read only
