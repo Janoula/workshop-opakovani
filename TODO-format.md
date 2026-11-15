@@ -277,12 +277,17 @@ Order: project-specific work first, repo-wide changes after.
 - [ ] At the end of the workshop, send participants the link to the `reseni` branch (D5).
 - [ ] Before the workshop, tell participants to install pytest (D1) and to have a
       GitHub account ready (D3).
-- [ ] **Later, after the converter below:** a "before the workshop" document for
+- [x] **Later, after the converter below:** a "before the workshop" document for
       participants: GitHub account, fork and clone, `pip install pytest cowsay`
       (the modules lesson needs cowsay; pyfiglet only for bonuses), what to do
       when the install fails. It has to fit the public-pages converter, so it is
-      written once the converter supports this repo. Then announce it (e-mail,
-      Discord, web banner in `organizace/content/oznameni/`).
+      written once the converter supports this repo.
+      Done 15 Nov: `PRED-WORKSHOPEM.md` (fork, clone in GitHub Desktop, ZIP
+      fallback, `pip install pytest cowsay pyfiglet`, troubleshooting table,
+      check with the Testing panel and the cow, sync the fork in the morning).
+      The converter renders it as `/materialy/workshop-opakovani/pred-workshopem/`,
+      linked from the workshop page (public-pages branch `workshop-pred-workshopem`).
+  - [ ] Announce it (e-mail, Discord, web banner in `organizace/content/oznameni/`).
 - [x] public-pages converter for the workshop repo. Done 13–14 Nov (public-pages
       PR #13, merged; automatic import since 14 Nov). It used to read only
       `pyladiesprague/materialy`. The lessons here (`lekce-moduly/`, testing)
