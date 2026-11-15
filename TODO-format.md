@@ -318,8 +318,11 @@ Order: project-specific work first, repo-wide changes after.
 - [ ] Update the workshop design doc: pytest, ten Wordle steps as decided, and the
       dropped rule that anyone stuck can catch up from a solution (D5).
 - [ ] Delete `TODO-format.md` and `REPORT-materialy.md` from `main` before the workshop.
-- [ ] Final pass for one style across projects (feedback): headings, tables,
-      line wrapping, how the participant is addressed.
+- [x] Final pass for one style across projects (feedback): headings, tables,
+      line wrapping, how the participant is addressed. Done 15 Nov: participant
+      is "ty", feminine, everywhere; function tables use "Co vrátí", or "Co dělá"
+      where a function changes data or returns nothing; `napady.md` titles and
+      the README ending ("Na konci dne") unified.
 
 ### From the materialy comparison (`REPORT-materialy.md`)
 Decisions:
@@ -363,11 +366,13 @@ Decisions:
 Alignment with `materialy`:
 - [x] Titles with an en dash: Wordle `# Krok 1: …` becomes `# Krok 1 – …` (13 Nov).
       Bonus files already use `# Bonus N – …` since the split on 13 Nov.
-- [ ] Solution headers in Wordle and Titanic: `# Řešení kroku N – …` /
+- [x] Solution headers in Wordle and Titanic: `# Řešení kroku N – …` /
       `# Řešení bonusu N – …`, then "Tvoje řešení může vypadat jinak, a to je
-      v pořádku." (finance already does this).
-- [ ] Wrap Markdown prose at about 75–80 characters in Wordle and Titanic
-      (part of the final style pass).
+      v pořádku." Done 15 Nov in all three generators on `reseni`; the step
+      name comes from the step title.
+- [x] Wrap Markdown prose at about 75–80 characters in Wordle and Titanic
+      (part of the final style pass). Done 15 Nov, all three projects. Tables,
+      code and the hint pointer line stay on one line (the converter needs it).
 - [ ] `.gitattributes`: `export-ignore` for `TODO-format.md`,
       `REPORT-materialy.md`, `feedback.md` and a future `.github/`, as
       `materialy` does for its ZIP.
