@@ -416,8 +416,11 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
       13 Nov; step and hint files checked 15 Nov, none left.
 - [x] Add `napady.md`: extension ideas without solutions (high scores,
       difficulty levels, and similar).
-- [ ] Add a bonus for clearing the terminal where the project lacks one.
+- [x] Add a bonus for clearing the terminal where the project lacks one.
       Wordle has it as step 10, Titanic as bonus 5; finance still lacks one.
+      Done 16 Nov: finance bonus 5 `05_cisteni_obrazovky.md`, same recipe as
+      Titanic (clear before the menu, wait for Enter, balance above the menu);
+      solution `bonusy/reseni/05_cisteni_obrazovky.py` on `reseni`.
 - [x] README to the README template, including the minimum goal and the
       smoke test in "before you start". Done: all three have the template
       sections, a minimum goal (finance and Wordle step 3, Titanic step 6) and a
