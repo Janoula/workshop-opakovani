@@ -271,9 +271,11 @@ Order: project-specific work first, repo-wide changes after.
       `projekty-wordle-titanic` (merged), and `projekt-finance-reseni` once moved.
       Done 13 Nov, locally and on GitHub. All three were fully contained in
       `main` or `reseni`; the pre-unification state is kept by tag `pred-unifikaci`.
-- [ ] Root `README.md`: how the day runs, fork and clone (D3), open the whole repo
+- [x] Root `README.md`: how the day runs, fork and clone (D3), open the whole repo
       folder (D2), how to run only your project's tests, project table with the new folder links (D7), and that
       the day ends with a show and tell. No mention of solutions.
+      Done 16 Nov, with a link to `PRED-WORKSHOPEM.md` and fork and clone
+      replacing Download ZIP (ZIP stays as the fallback).
 - [ ] At the end of the workshop, send participants the link to the `reseni` branch (D5).
 - [ ] Before the workshop, tell participants to install pytest (D1) and to have a
       GitHub account ready (D3).
@@ -381,7 +383,7 @@ Alignment with `materialy`:
 - [ ] `.gitattributes`: `export-ignore` for `TODO-format.md`,
       `REPORT-materialy.md`, `feedback.md` and a future `.github/`, as
       `materialy` does for its ZIP.
-- [ ] Root README "Jak si materiály stáhnout": fork and clone with ZIP as
+- [x] Root README "Jak si materiály stáhnout": fork and clone with ZIP as
       fallback (D3), same wording as lesson 1 in `materialy`.
 - [ ] Project changes go through PRs with the other owner as reviewer; branch
       names `finance/…`, `wordle/…`, `docs/…`; commit subjects `Finance: …`.
