@@ -65,7 +65,7 @@ Section 3 records each decision as Tomas chose it. Vojtěch adds his feedback he
 
 ```
 README.md                  how the day works, how to get the repo, project table
-TAHAK.md                   shared: importing your own file, tests, reading a failed test
+(no root TAHAK.md: the lesson taháky cover imports and tests, decided 16 Nov)
 pytest.ini, .gitignore, .vscode/   one shared VS Code setup, repo root is what gets opened
 <projekt>/
     README.md              what you build, steps table, files, before you start, when stuck
@@ -298,9 +298,10 @@ Order: project-specific work first, repo-wide changes after.
       It must support several hints per step: `napovedy/NN_nazev_1.md`,
       `_2.md` show as hint 1 and hint 2, so the second is opened only when the
       first is not enough.
-- [ ] Root `TAHAK.md`: importing from your own file, writing a test, reading a
-      failed test, common error messages. Move this out of the finance tahák
-      and out of the Wordle and Titanic READMEs.
+- [x] ~~Root `TAHAK.md`~~: dropped by Vojta on 16 Nov. The lesson taháky
+      (`lekce-testovani/TAHAK.md`, `lekce-moduly/TAHAK.md`) already cover
+      importing your own file, writing and reading tests and common errors;
+      a root tahák would be a third copy. Project taháky and READMEs link there.
 - [x] Keep the root `.vscode/` as the only one; remove the per-project unittest
       settings in Wordle and Titanic (D2). Done 14 Nov (PR #2).
 - [x] `pytest.ini`: keep `norecursedirs = reseni`, needed on the `reseni` branch.
@@ -446,7 +447,10 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
 - [x] Step 6: build the path to `finance.json` from the file's location.
       Done 15 Nov: `Path(__file__).parent / "finance.json"` as a recipe in the
       step, the tahák and the hint; solutions regenerated on `reseni`.
-- [ ] Move shared tahák parts to the root `TAHAK.md`; keep JSON in the project tahák.
+- [x] Shared tahák parts out of the finance tahák (16 Nov): imports and tests
+      replaced by links to the lesson taháky; kept the `finance.py` import
+      rule, `ukazka()` and JSON. README got "Jak vypadá test" like Wordle and
+      Titanic.
 - [ ] Adjust the tests to D9: pick the step where ready tests stop, and from
       there on replace the test code with a list of cases the participant tests
       herself.
