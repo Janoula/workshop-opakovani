@@ -368,8 +368,10 @@ Decisions:
 - [x] **Exceptions:** out of scope for this workshop, decided by Vojta on
       13 Nov; Tomas to confirm if he disagrees. They stay in L13 (CSV a výjimky).
   - [ ] Tomas: confirm, if needed.
-  - [ ] Update `organizace/content/podzim-2026/materialy.md`, which still says
+  - [x] Update `organizace/content/podzim-2026/materialy.md`, which still says
         *soubory, výjimky a moduly patří do middle workshopu*.
+        Done 16 Nov (organizace `22a32f8`): moduly, pytest and soubory belong
+        to the workshop, výjimky stay in L13.
 
 Alignment with `materialy`:
 - [x] Titles with an en dash: Wordle `# Krok 1: …` becomes `# Krok 1 – …` (13 Nov).
