@@ -383,9 +383,11 @@ Alignment with `materialy`:
 - [x] Wrap Markdown prose at about 75–80 characters in Wordle and Titanic
       (part of the final style pass). Done 15 Nov, all three projects. Tables,
       code and the hint pointer line stay on one line (the converter needs it).
-- [ ] `.gitattributes`: `export-ignore` for `TODO-format.md`,
+- [x] `.gitattributes`: `export-ignore` for `TODO-format.md`,
       `REPORT-materialy.md`, `feedback.md` and a future `.github/`, as
       `materialy` does for its ZIP.
+      Done 16 Nov: `.github`, `.gitattributes` and `FORMAT-projektu.md`.
+      `feedback.md` is gone; TODO and REPORT get deleted before the workshop.
 - [x] Root README "Jak si materiály stáhnout": fork and clone with ZIP as
       fallback (D3), same wording as lesson 1 in `materialy`.
 - [ ] Project changes go through PRs with the other owner as reviewer; branch
