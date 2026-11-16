@@ -114,12 +114,14 @@ transakce = [
 
 ## Než začneš
 
-1. V terminálu ve VS Code nainstaluj pytest: `pip install pytest`.
-   Na Windows případně `py -m pip install pytest`.
+1. Měj připravený počítač podle návodu [Před workshopem](../PRED-WORKSHOPEM.md):
+   fork, clone a nainstalovaný pytest. Když pytest chybí, napiš v terminálu
+   ve VS Code `pip install pytest`, na Windows případně `py -m pip install pytest`.
 2. Ve VS Code měj otevřenou složku celého workshopu (**File → Open Folder**),
-   ne jen jeden soubor.
-3. Otevři panel **Testing** (ikona baňky vlevo) a spusť testy. V
-   `test_finance.py` je jeden a má být zelený. Když je, všechno funguje.
+   ne jen složku projektu.
+3. Otevři panel **Testing** (ikona baňky vlevo). Rozbal `projekt-finance` a
+   spusť jeho testy šipkou vedle názvu. V `test_finance.py` je jeden test a má
+   být zelený. Když je, všechno funguje.
 4. Spusť `app.py`. Má vypsat, kolik transakcí načetl.
 5. Otevři [krok 1](cviceni/01_zaklad.md).
 

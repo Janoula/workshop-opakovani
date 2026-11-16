@@ -418,8 +418,12 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
       difficulty levels, and similar).
 - [ ] Add a bonus for clearing the terminal where the project lacks one.
       Wordle has it as step 10, Titanic as bonus 5; finance still lacks one.
-- [ ] README to the README template, including the minimum goal and the
-      smoke test in "before you start".
+- [x] README to the README template, including the minimum goal and the
+      smoke test in "before you start". Done: all three have the template
+      sections, a minimum goal (finance and Wordle step 3, Titanic step 6) and a
+      smoke test. 16 Nov: "Než začneš" step 1 links to `PRED-WORKSHOPEM.md`
+      (pytest command kept as fallback), finance step 3 runs only its own tests
+      like Wordle and Titanic.
 - [x] Starter test file contains only one test, and it passes. Step 1 tests move
       into the step file (D2). All three: one passing test each (15 Nov).
 - [x] Module and test file names are unique across the repo (D2):
