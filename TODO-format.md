@@ -454,10 +454,12 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
 - [ ] Adjust the tests to D9: pick the step where ready tests stop, and from
       there on replace the test code with a list of cases the participant tests
       herself.
-- [ ] **To figure out:** the step 6 tests use pytest's `tmp_path`, so they do not
+- [x] **Decided 16 Nov (Vojta):** the step 6 tests use pytest's `tmp_path`, so they do not
       touch the real `finance.json`. Beginners cannot write that themselves, which
-      clashes with "own tests in later steps". Either keep these tests ready-made
-      as an exception, or explain `tmp_path` briefly in the step.
+      clashes with "own tests in later steps". They stay ready-made as an
+      exception to D9, even if earlier steps switch to own tests. The step
+      already explains `tmp_path` in one paragraph as a recipe; the own test
+      (save and load an empty list) reuses it.
 - [ ] The solution generator takes tests from the step files. Once later steps
       have none, the solution tests need another source.
 - [x] Add the Commit and Sync line to each step (D3). Done 14 Nov, same wording
