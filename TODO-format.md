@@ -323,8 +323,11 @@ Order: project-specific work first, repo-wide changes after.
 - [x] Coach notes in one place per project: `pro_kouce.md` on `reseni`. Titanic has
       one (moved off `main` 13 Nov), finance's moved there from `reseni/README.md`
       13 Nov, Wordle's added 15 Nov. All three have `pro_kouce.md` on `reseni`.
-- [ ] Update the workshop design doc: pytest, ten Wordle steps as decided, and the
+- [x] Update the workshop design doc: pytest, ten Wordle steps as decided, and the
       dropped rule that anyone stuck can catch up from a solution (D5).
+      Done 16 Nov as a new comment under Tomas's design in organizace issue #22
+      (his comment left as is): pytest, steps per project, `reseni` branch for
+      coaches only, no catching up by copying.
 - [ ] Delete `TODO-format.md` and `REPORT-materialy.md` from `main` before the workshop.
 - [x] Final pass for one style across projects (feedback): headings, tables,
       line wrapping, how the participant is addressed. Done 15 Nov: participant
