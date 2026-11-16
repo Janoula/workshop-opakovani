@@ -423,8 +423,12 @@ Schedule fit (workshop Sat 21 Nov, after L9 Slovníky on 19 Nov):
       into the step file (D2). All three: one passing test each (15 Nov).
 - [x] Module and test file names are unique across the repo (D2):
       `finance.py`, `logika.py`, `analyza.py` and their `test_*.py`.
-- [ ] Check that input cleaning is practised (feedback): case, `strip`, types,
+- [~] Check that input cleaning is practised (feedback): case, `strip`, types,
       positive and negative numbers, dates.
+      Finance checked 16 Nov: types, sign, dates and empty input were already in
+      step 2 (`je_platna_castka`, `je_platne_datum`, Hotovo když); `strip` and
+      `lower` were only in the solution, now also in the step, its Hotovo když
+      and the hint. Wordle and Titanic not checked yet.
 - [x] Data files are found from the file's own location, not the working folder.
       Done 15 Nov: all three use `Path(__file__).parent`.
 - [ ] Last: test the participant path on Windows and macOS with this project:
