@@ -8,4 +8,7 @@
 #     Dvě data jde od sebe odečíst. Výsledek má hodnotu .days,
 #     ve které je počet dní.
 
-
+from datetime import date
+vanoce = date(2026, 12, 24)
+dni = vanoce - date.today()
+print(f"Do Vánoc zbývá {dni.days} dní.")

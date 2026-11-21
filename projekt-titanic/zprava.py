@@ -7,5 +7,11 @@
 
 import analyza
 
+pasazeri = analyza.nacti_pasazery(analyza.SOUBOR)
+
 print("Titanic")
 print(f"Data jsou v souboru {analyza.SOUBOR.name}.")
+print(f"Počet pasažérů je {len(pasazeri)}.")
+sloupce = list(pasazeri[0])
+print(sloupce)
+print(f"První pasažér je {pasazeri[0]["Name"]}.")

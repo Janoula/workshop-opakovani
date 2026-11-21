@@ -8,4 +8,6 @@
 #
 #     Nápis piš bez háčků a čárek, písma v pyfiglet je neznají.
 
-
+import pyfiglet
+f = pyfiglet.figlet_format("CTIRADA TRCKOVA", font="slant")
+print(f)

@@ -6,4 +6,13 @@
 #    a nakonec vypiš „Šťastný nový rok!“.
 #    Na čekání použij sleep z modulu time.
 
+import time
 
+start = int(input("Od kolika se má počítat? "))
+for i in range(0, start):
+    print(start)
+    time.sleep(1)
+    start = start - 1
+    if start == -1:
+        break
+print("Šťastný nový rok!")

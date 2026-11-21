@@ -8,4 +8,15 @@
 #
 #     Písmo se vybírá takhle:  pyfiglet.figlet_format(text, font="slant")
 
+import pyfiglet
+import random
 
+pyfiglet.FigletFont.getFonts()
+
+text = input("Co mám napsat? ")
+
+for napis in range(3):
+    font = 
+
+
+pyfiglet.figlet_format(text, font="slant")

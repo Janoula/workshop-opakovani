@@ -7,4 +7,8 @@
 #
 #    Padlo 3 a 5, dohromady 8.
 
+from random import randrange
 
+hod1 = randrange(1, 7)
+hod2 = randrange(1, 7)
+print(f"Padlo {hod1} a {hod2}, celkem {hod1 + hod2}.")

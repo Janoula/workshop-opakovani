@@ -6,3 +6,12 @@
 #     který vybereš funkcí choice – ta umí vybírat i z řetězce.
 
 znaky = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789"
+
+from random import choice
+
+heslo = ""
+
+for beh in range(12):
+    heslo = heslo + choice(znaky)
+
+print(heslo)
