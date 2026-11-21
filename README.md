@@ -33,7 +33,7 @@ a dávalo ti smysl.
 Na workshopu pracuješ ve vlastním forku, stejně jako s `materialy`:
 
 1. Nahoře klikni na **Fork** a pak na **Create fork**.
-2. Fork si naklonuj v GitHub Desktop (**File → Clone repository**).
+2. Fork si naklonuj ve VS Code (panel **Source Control → Clone Repository**).
 3. Ve VS Code otevři celou složku `workshop-opakovani`
    (**File → Open Folder**), ne jen jeden projekt nebo soubor.
 

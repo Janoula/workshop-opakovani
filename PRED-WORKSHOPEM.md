@@ -5,8 +5,8 @@ návod doma, nejlépe pár dní předem. Zabere asi dvacet minut. Když se
 někde zasekneš, nevadí: napiš nám na Discord, nebo přijď na workshop
 o čtvrt hodiny dřív a vyřešíme to spolu.
 
-Budeš potřebovat totéž co na lekcích: VS Code, Python, GitHub Desktop a
-účet na GitHubu.
+Budeš potřebovat totéž co na lekcích: VS Code, Python, Git a účet na
+GitHubu.
 
 ## 1. Fork
 
@@ -24,11 +24,18 @@ budeš během dne ukládat svou práci.
 
 ## 2. Clone
 
-1. Otevři GitHub Desktop.
-2. **File → Clone repository**, karta **GitHub.com**.
-3. Vyber `workshop-opakovani` a klikni na **Clone**.
-4. Klikni na **Open in Visual Studio Code**. Nebo ve VS Code
-   **File → Open Folder** a vyber složku `workshop-opakovani`.
+Stejně jako u `materialy` klonuješ ve VS Code:
+
+1. Na stránce svého forku klikni na zelené tlačítko **Code** a zkopíruj
+   adresu končící na `.git`. Musí v ní být tvoje uživatelské jméno, ne
+   `pyladiesprague`.
+2. Ve VS Code otevři v levém pruhu panel **Source Control** a klikni na
+   **Clone Repository**. Když tam tlačítko není (máš otevřenou jinou
+   složku), stiskni **Ctrl+Shift+P** (na macOS **Cmd+Shift+P**), napiš
+   `Git: Clone` a potvrď Enterem.
+3. Vlož adresu forku a potvrď Enterem.
+4. Vyber **Dokumenty** a klikni na **Select as Repository Destination**.
+5. Až se VS Code zeptá, jestli repozitář otevřít, klikni na **Open**.
 
 Ve VS Code otevři vždycky celou složku `workshop-opakovani`, ne jen jeden
 projekt nebo soubor. Jen tak najde VS Code testy a nastavení.
@@ -79,7 +86,8 @@ Materiály do poslední chvíle dolaďujeme. Ráno si proto fork aktualizuj
 stejně jako u `materialy`:
 
 1. Na GitHubu otevři svůj fork a klikni na **Sync fork → Update branch**.
-2. V GitHub Desktop klikni na **Fetch origin** a pak na **Pull origin**.
+2. Ve VS Code v panelu **Source Control** klikni u nadpisu *Changes* na
+   tři tečky **…** a zvol **Pull**.
 
 ## Hotovo, když
 
