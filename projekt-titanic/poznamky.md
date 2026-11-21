@@ -1,5 +1,7 @@
 # Moje poznámky
 
+Pasažérů, kde nemám uveden věk je 177.
+
 ## Krok 2 – Co v datech chybí?
 
 Čeho jsem si všimla:
