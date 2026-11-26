@@ -25,7 +25,10 @@ print(sloupce)
 print(f"První pasažér je {pasazeri[0]["Name"]}.")
 cisty_seznam = analyza.uprav_pasazery(pasazeri)
 pocet_bez_veku = 0
-
+print(analyza.nejstarsi(cisty_seznam))
+print(analyza.nejmladsi(cisty_seznam))
+print(analyza.prumerny_vek(cisty_seznam))
+print(analyza.nejstarsi(cisty_seznam))
 for p in cisty_seznam:
     if p["Age"] == None:
         pocet_bez_veku = pocet_bez_veku + 1

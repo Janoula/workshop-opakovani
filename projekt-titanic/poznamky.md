@@ -1,6 +1,7 @@
 # Moje poznámky
 
 Pasažérů, kde nemám uveden věk je 177.
+Hádám, že průměrný věk byl 46 let a nejstaršímu pasažérovi bylo 86 let.
 
 ## Krok 2 – Co v datech chybí?
 

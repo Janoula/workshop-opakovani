@@ -63,4 +63,50 @@ def seznam_bez_veku(cisty_seznam):
         if p["Age"] == None:
             seznam_bez_veku.append(p)
 
+def prumerny_vek(pasazeri):
+    roky = 0
+    lidi = 0
+    for p in pasazeri:
+        if p["Age"] != None:
+            roky = roky + p["Age"]
+            lidi = lidi + 1
+        else:
+            continue
+    if lidi > 1:
+        return roky / lidi
+    else:
+        return None
+
+def nejstarsi(pasazeri):
+    nejstarsi = 0
+    for p in pasazeri:
+        if p["Age"] != None:
+            vek = int(p["Age"])
+            if vek > nejstarsi:
+                nejstarsi = p["Age"]
+    for p in pasazeri:
+        if p["Age"] == nejstarsi:
+            jmeno_nejstarsiho = p["Name"]    
+    return jmeno_nejstarsiho
+
+def nejmladsi(pasazeri):
+    nejmladsi = 200
+    for p in pasazeri:
+            if p["Age"] != None:
+                vek = int(p["Age"])
+                if vek < nejmladsi:
+                    nejmladsi = p["Age"]
+    for p in pasazeri:
+            if p["Age"] == nejmladsi:
+                jmeno_nejmladsiho = p["Name"]    
+        return jmeno_nejmladsiho
+
+# | Funkce | Co vrátí |
+# | --- | --- |
+# | `prumerny_vek(pasazeri)` | průměrný věk těch pasažérů, u kterých věk známe; když ho neznáme u nikoho, vrátí `None` |
+# | `nejstarsi(pasazeri)` | celého pasažéra (slovník) s nejvyšším věkem; když věk nemá nikdo, vrátí `None` |
+# | `nejmladsi(pasazeri)` | celého pasažéra s nejnižším věkem; když věk nemá nikdo, vrátí `None` |
+
+# Pozor na lidi bez věku. Mají v `Age` hodnotu `None`, se kterou se nedá počítat
+# ani ji porovnávat. Funkce je musí přeskočit.
 
